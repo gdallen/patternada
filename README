@@ -1,0 +1,17 @@
+# app
+
+Patternada is a project looking at taking design patterns in java 
+and converting them to a functional form using clojure.
+
+The first pattern was worked through for a presentation at the 
+Twin Cities Java User Group (TCJUG) in October 2013.
+
+## Usage
+
+FIXME: write
+
+## License
+
+Copyright (C) 2013 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.
