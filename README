@@ -1,16 +1,19 @@
-# app
-
-Patternada is a project looking at taking design patterns in java 
+Patternada is a research project looking at taking design patterns in java 
 and converting them to a functional form using clojure.
 
-The first pattern was worked through for a presentation at the 
-Twin Cities Java User Group (TCJUG) in October 2013.
+The first pattern was worked through for an Introduction to Clojure 
+presentation at the Twin Cities Java User Group (TCJUG) in October 2013.
 
-## Usage
 
-FIXME: write
+The first, and so far only, pattern examined is the strategy pattern.
+The context of the strategy pattern is the "Self Defense Against Fresh Fruit"
+skit by Monty Python.  There is a simple java example that is duplicated in
+in the first Clojure implementation.  The clojure implementation is 
+improved twice.  The second implementation uses multi-methods and the third 
+implementation builds on the multimethod version so that if a new defense 
+implementation is needed, the only change needed is to add the attack and
+defense into a list.
 
-## License
 
 Copyright (C) 2013 FIXME
 
